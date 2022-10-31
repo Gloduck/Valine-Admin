@@ -14,7 +14,9 @@
         <input tabindex="2" name="password" placeholder="密码" type="password" class="password gh-input ember-view">
         <input tabindex="3" type="submit" class="login-button" value="登录">
     </form>
+      <% if (icp) { %>
+      <div style="text-align: center;padding-top: 10px;"><%= icp %></div>
+      <% } %>
 </div>
-<div style="text-align: center;margin-top: 30px;">鲁ICP备20014363号-14</div>
 </body>
 </html>
