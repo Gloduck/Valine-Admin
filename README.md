@@ -40,6 +40,8 @@
 * `SMTP_SERVICE` : 邮件服务提供商，支持 `QQ`、`163`、`126`、`Gmail`、`"Yahoo"`、`......`  ，全部支持请参考 : [Nodemailer Supported services](https://nodemailer.com/smtp/well-known/#supported-services)。 --- *如这里没有你使用的邮件提供商，请查看[自定义邮件服务器](/高级配置.md#自定义邮件服务器)*
 * `SENDER_NAME` : 寄件人名称。
 
+**可选参数**
+* `SITE_ICP`*：ICP备案
 ## 高级配置
 
 [自定义邮件模板](/高级配置.md#自定义邮件模板)
